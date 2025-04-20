@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !^/project/
+RewriteRule ^(.*)$ /project/$1 [L]
+php_value date.timezone Asia/Jakarta
