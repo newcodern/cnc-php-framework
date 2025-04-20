@@ -1,3 +1,3 @@
 # IMPORTANT
 
-.htaccess must be configured based on you server directory.
+.htaccess must be configured based on your server directory.
